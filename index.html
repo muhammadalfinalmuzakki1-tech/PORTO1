@@ -16,6 +16,47 @@
     <title>PORTOFOLIO | FinzDEV</title>
   </head>
   <body>
+    <header>
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-box">
+            <ul class="menu">
+              <li><a href="#">Tentang</a></li>
+              <li><a href="#">Proyek</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero-box">
+            <img src="" alt="" />
+            <h1>
+              Hai, Saya <span id="element"></span><br />
+              Web Developer & Desainer
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- Hero -->
+    </header>
+    <!-- JS -->
     <script src="dist/js/script.js"></script>
+
+    <!-- Typed Js -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Alfin"],
+        typeSpeed: 300,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
